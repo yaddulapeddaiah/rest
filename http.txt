@@ -1,0 +1,24 @@
+                                         
+										 Difference between HTTP 1.1 Vs HTTP 2
+										 
+			Key Features of HTTP/1.1 :
+			
+		      1.It was no longer required for each connection to be terminated immediately after every request served with a response.
+			  2. The upgrade header was used to indicate a preferences from the the client that made it possible to switch to a prefferd protocol if found appropriate by the server.
+			  3.HTTP /1.1 provided support for chunk transfers that allowed streaming of content dynamically as chunks and for additional headers to be sent after the message body.
+			  4.Other features that reinforced its stability were introdued 
+			     a)pipelining (the second request is sent before the response to the first is adequately served).
+				 b)content negotiation (an exchange between client and server to determine the media type).
+				 c)cache control(used to specify caching policies in both requests and responses).
+				 
+			Key Features of HTTP/2
+
+               1.Protocol Negotiation mechanism - protocol electing ,eg,http/1.1,http/2 or other.
+			   2.High -level compatiblity with http/1.1 -methods ,status codes,urls and header fields.
+			   3.page load speed improvements through.
+			   4.Compression of request headers.
+			   5.Binary protocol
+			   6.HTTP/2 server push
+			   7.Request Multiplexing over a single TCP connection
+			   8.Request pipelinging
+			   9.Hol blocking -package blocking
